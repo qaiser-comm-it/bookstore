@@ -28,6 +28,12 @@ function configureRoutes(routesService: RoutesService) {
         parentName: '::Menu:BookStore',
         layout: eLayoutType.application,
       },
+      {
+        path: '/authors',
+        name: '::Menu:Authors',
+        parentName: '::Menu:BookStore',
+        layout: eLayoutType.application,
+      }
     ]);
   };
 }
